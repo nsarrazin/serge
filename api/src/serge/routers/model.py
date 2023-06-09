@@ -252,7 +252,7 @@ async def download_status(model_name: str):
     if model_name not in models:
         raise HTTPException(status_code=404, detail="Model not found")
 
-    filesize = models_info[model_name][2]
+    filesize = float(str(models_info[model_name][2]))
 
     bin_path = WEIGHTS + f"{model_name}.bin.tmp"
 
