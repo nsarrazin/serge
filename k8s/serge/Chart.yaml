@@ -1,0 +1,7 @@
+apiVersion: v2
+name: serge
+description: A Helm chart to run Serge in Kubernetes
+icon: https://avatars.githubusercontent.com/u/135821135?s=200&v=4
+type: application
+version: 0.1.0
+appVersion: "0.3.0"
